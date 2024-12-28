@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vgoyzuet <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vgoyzuet <vgoyzuet@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/28 02:29:10 by vgoyzuet          #+#    #+#             */
-/*   Updated: 2024/05/30 10:57:55 by vgoyzuet         ###   ########.fr       */
+/*   Updated: 2024/12/28 01:37:08 by vgoyzuet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,3 @@ void	ft_print_numbers(void)
 		numbers++;
 	}
 }
-/*
-int	main(void)
-{
-	ft_print_numbers();
-	return (0);
-}
-*/

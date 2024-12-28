@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vgoyzuet <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vgoyzuet <vgoyzuet@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/28 02:01:13 by vgoyzuet          #+#    #+#             */
-/*   Updated: 2024/05/28 02:27:50 by vgoyzuet         ###   ########.fr       */
+/*   Updated: 2024/12/28 01:36:43 by vgoyzuet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,3 @@ void	ft_print_reverse_alphabet(void)
 		reverse_alphabet--;
 	}
 }
-/*
-int	main(void)
-{
-	ft_print_reverse_alphabet();
-	return (0);
-}
-*/
