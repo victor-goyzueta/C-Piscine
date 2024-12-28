@@ -1,18 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_comb2.c                                   :+:      :+:    :+:   */
+/*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vgoyzuet <vgoyzuet@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/28 03:14:14 by vgoyzuet          #+#    #+#             */
-/*   Updated: 2024/12/28 20:44:47 by vgoyzuet         ###   ########.fr       */
+/*   Created: 2024/12/28 20:45:31 by vgoyzuet          #+#    #+#             */
+/*   Updated: 2024/12/28 20:46:57 by vgoyzuet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_comb2(void)
+void	ft_putchar(int c)
+{
+	write(1, &c, 1);
+}
+
+void	ft_putnbr(int nb)
 {
 	//
 }
