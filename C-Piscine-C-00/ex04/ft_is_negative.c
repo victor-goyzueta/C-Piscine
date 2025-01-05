@@ -6,7 +6,7 @@
 /*   By: vgoyzuet <vgoyzuet@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/28 03:21:15 by vgoyzuet          #+#    #+#             */
-/*   Updated: 2024/12/28 01:37:30 by vgoyzuet         ###   ########.fr       */
+/*   Updated: 2025/01/05 17:12:12 by vgoyzuet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,7 @@
 void	ft_is_negative(int n)
 {
 	if (n < 0)
-	{
 		write (1, "N", 1);
-	}
 	else
-	{
 		write (1, "P", 1);
-	}
 }

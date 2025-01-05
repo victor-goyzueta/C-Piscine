@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ft.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vgoyzuet <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vgoyzuet <vgoyzuet@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/02 10:13:51 by vgoyzuet          #+#    #+#             */
-/*   Updated: 2024/06/05 19:24:57 by vgoyzuet         ###   ########.fr       */
+/*   Updated: 2025/01/05 17:02:06 by vgoyzuet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,13 +16,3 @@ void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
-/*
-int	main(void)
-{
-	int i;
-
-	ft_ft(&i);
-	printf("%d",i);
-	return(0);
-}
-*/

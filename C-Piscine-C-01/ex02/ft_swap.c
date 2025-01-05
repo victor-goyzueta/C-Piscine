@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vgoyzuet <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vgoyzuet <vgoyzuet@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/04 01:40:17 by vgoyzuet          #+#    #+#             */
-/*   Updated: 2024/06/04 04:34:31 by vgoyzuet         ###   ########.fr       */
+/*   Updated: 2025/01/05 17:02:28 by vgoyzuet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,18 +20,3 @@ void	ft_swap(int *a, int *b)
 	*a = *b;
 	*b = temp;
 }
-/*
-int     main(void)
-{
-        int x;
-	int y;
-
-	x = 42;
-        y = 24;
-
-        printf("%d, %d\n", x, y);
-        ft_swap(&x, &y);
-        printf("%d, %d\n", x, y);
-        return (0);
-}
-*/

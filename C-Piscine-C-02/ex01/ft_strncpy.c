@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vgoyzuet <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vgoyzuet <vgoyzuet@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/07 13:37:18 by vgoyzuet          #+#    #+#             */
-/*   Updated: 2024/06/12 15:50:46 by vgoyzuet         ###   ########.fr       */
+/*   Updated: 2025/01/05 17:14:05 by vgoyzuet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	unsigned int	i;
 
 	i = 0;
-	while (src[i] != '\0' && i < n)
+	while (src[i] && i < n)
 	{
 		dest[i] = src[i];
 		i++;
@@ -29,17 +29,3 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	}
 	return (dest);
 }
-/*
-int	main(void)
-{
-	char	dest[13]; //Asegurse que haya espacio suficiente para el string
-	char	*src;
-	unsigned int	n;
-
-	n = 4;
-	src = "Hello, World!";
-	ft_strncpy(dest, src, n);
-	printf("%s\n", dest);
-	return (0);
-}
-*/

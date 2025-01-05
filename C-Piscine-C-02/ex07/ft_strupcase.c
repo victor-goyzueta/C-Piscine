@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strupcase.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vgoyzuet <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vgoyzuet <vgoyzuet@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/12 11:33:58 by vgoyzuet          #+#    #+#             */
-/*   Updated: 2024/06/12 12:57:08 by vgoyzuet         ###   ########.fr       */
+/*   Updated: 2025/01/05 17:19:51 by vgoyzuet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,23 +15,11 @@ char	*ft_strupcase(char *str)
 	int	i;
 
 	i = 0;
-	while (str[i] != '\0')
+	while (str[i])
 	{
-		if (str[i] >= 97 && str[i] <= 122)
-		{
+		if (str[i] >= 'a' && str[i] <= 'z')
 			str[i] -= 32;
-		}
 		i++;
 	}
 	return (str);
 }
-/*
-int	main(void)
-{
-	char str[] = "Abcdefg";
-
-	ft_strupcase(str);
-	printf ("%s", str);
-	return (0);
-}
-*/

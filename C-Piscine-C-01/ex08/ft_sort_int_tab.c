@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_sort_int_tab.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vgoyzuet <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vgoyzuet <vgoyzuet@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/09 13:33:17 by vgoyzuet          #+#    #+#             */
-/*   Updated: 2024/06/09 16:46:45 by vgoyzuet         ###   ########.fr       */
+/*   Updated: 2025/01/05 17:11:02 by vgoyzuet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,20 +35,3 @@ void	ft_sort_int_tab(int *tab, int size)
 		i++;
 	}
 }
-/*
-int	main(void)
-{
-	int arr[] = {5, 3, 8, 4, 2};
-	int size = 5;
-
-	ft_sort_int_tab(arr, size);
-
-	int i = 0;
-	while (i < size)
-	{
-        	printf("%d ", arr[i]);
-        	i++;
-	}
-    	return (0);
-}
-*/

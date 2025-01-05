@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_uppercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vgoyzuet <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vgoyzuet <vgoyzuet@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/12 01:10:01 by vgoyzuet          #+#    #+#             */
-/*   Updated: 2024/06/12 01:34:10 by vgoyzuet         ###   ########.fr       */
+/*   Updated: 2025/01/05 17:18:37 by vgoyzuet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,33 +15,14 @@ int	ft_str_is_uppercase(char *str)
 	int	i;
 
 	i = 0;
-	if (str[i] == '\0')
-	{
+	if (!str[i])
 		return (1);
-	}
-	while (str[i] != '\0')
+	while (str[i])
 	{
-		if (str[i] >= 65 && str[i] <= 90)
-		{
+		if (str[i] >= 'A' && str[i] <= 'Z')
 			i++;
-		}
 		else
-		{
 			return (0);
-		}
 	}
 	return (1);
 }
-/*
-int	main(void)
-{
-	char	*str;
-	int	result;
-
-	str = "ABCDEFG";
-	result = ft_str_is_uppercase(str);	
-	ft_str_is_uppercase(str);
-	printf ("%i", result);
-	return (1);
-}
-*/
